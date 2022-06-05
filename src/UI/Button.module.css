@@ -1,0 +1,15 @@
+.button-design {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button-design:hover {
+    opacity: 70%;
+    cursor: pointer;
+}

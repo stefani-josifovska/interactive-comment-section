@@ -1,0 +1,8 @@
+.comment-content-container {
+    display: grid;
+    grid-template-rows: repeat(3, 4fr);
+    grid-template-columns: 12fr;
+    /* grid-gap: 4px; */
+    height: 80%;
+    width: 100%;
+}

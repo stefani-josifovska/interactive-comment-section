@@ -1,0 +1,53 @@
+.comment-user {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.avatar-name-date {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reply-img-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    height: auto;
+}
+
+.reply-img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    fill: hsl(238, 40%, 52%);
+}
+
+.reply-img-div:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+h3 {
+    color: hsl(238, 40%, 52%);
+    padding-top: 0;
+    padding-bottom: 0;
+}

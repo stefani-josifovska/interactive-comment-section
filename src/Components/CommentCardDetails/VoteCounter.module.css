@@ -1,0 +1,42 @@
+.vote-count-container {
+    background-color: rgb(65, 55, 55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 20px;
+    height: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin-left: 5%; */
+}
+
+.plus-minus-sign {
+    width: 15px;
+}
+
+.plus-minus-sign:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.number-votes {
+    font-size: 1.2em;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+ 
+.click-container {
+    background-color: transparent;
+    border: none;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.click-container:hover {
+    cursor: pointer;
+}

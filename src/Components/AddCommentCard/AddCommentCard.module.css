@@ -1,0 +1,39 @@
+.card-wrap {
+    background: rgb(212, 209, 209);
+    width: 100%;
+    height: auto;
+    /* height: 150px; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-sizing: border-box;
+    gap: 3%;
+    padding: 30px 5%;
+    margin: 15px 0;
+}
+
+.avatar {
+    height: 35px;
+    width: 35px;
+}
+
+.text-area {
+    resize: none;
+    height: fit-content;
+    min-height: 100px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.text-area:focus {
+    outline: none;
+    border: 1.5px solid hsl(238, 40%, 52%);
+}
+
